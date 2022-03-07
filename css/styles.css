@@ -613,11 +613,6 @@ footer{
     z-index: 5;
     color: #9d9f9f;
 }
-@media (max-width: 992px){
-  footer {
-    margin-top: 20rem;
-  }
-}
 
 .blockquote-footer {
   margin-top: -1rem;
@@ -11379,7 +11374,7 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .masthead .masthead-content {
   position: relative;
