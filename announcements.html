@@ -16,9 +16,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
-        <style>
+        <style> 
             body:before {
                 z-index: -1;
+                background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='50' height='50' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='%232d3748'/%3E%3Cpath d='M-10 30h60v13h-60zM-10-10h60v13h-60' fill='rgba(74, 85, 104,0.5)'/%3E%3Cpath d='M-10 20h60v3h-60zM-10-20h60v3h-60z' fill='%231a202c'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+                opacity: 20%;
             }
             @media (min-width: 1400px){
                 .breakpoint-lg{
@@ -68,10 +70,10 @@
             .break{
                 margin-bottom: -1rem;
             }
-            /* .break2{
-                margin-left: 2rem;
-                margin-right: 2rem;
-            } */
+            
+            .text-color{
+                color: #2a5555;
+            }
         
         </style>
     </head>
@@ -79,12 +81,12 @@
         
         <!-- Header -->
         <div>
-            <nav class="col navbar navbar-expand navbar-dark">
+            <nav class="col navbar navbar-expand-md navbar-dark">
                 <a class="navbar-brand" href="index.html">Watch it Outside</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="navbarContent" class="collapse navbar-collapse">
+                <div id="collapsibleNavbar" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="movies.html">Movies</a>
@@ -101,7 +103,7 @@
             
             <div class="row">
                 <div class="col-12">
-                    <div class="h-100 p-5 text-white">
+                    <div class="h-100 p-5">
                         <h2>Watch it Outside Events</h2>
                         <p class="text-color">Since 1992</p>
                         <p>Also in the summer of 2022 we will enjoy four summer evenings of films in the open air together in Boston's Public Garden! But as far as we're concerned, this will only be the start of many film nights in beautiful locations. Keep an eye on our website and social media for additional programming.</p>
@@ -191,10 +193,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
