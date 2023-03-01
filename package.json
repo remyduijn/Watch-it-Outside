@@ -1,0 +1,14 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "movie festival in Boston Public Garden",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "remy duijn",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
